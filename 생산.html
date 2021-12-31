@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>레이아웃 초안 연습</title>
+    <style>
+    #grid {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+
+    }
+    #text p{
+      margin: 0;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+      #milk {
+        border:1px solid black;
+        background:black;
+        padding:0;
+      }
+
+      #milk h1{
+        font-size:40px;
+        text-align:center;
+        color: white;
+      }
+       ol{
+        font-size:25px;
+        border-right:1px solid black;
+        width:80px;
+        margin:0;
+        padding:40px;
+
+      }
+      body{
+        margin:0;
+      }
+
+    @media(max-width:600px) {
+      #grid {
+        display: block;
+    }
+    ol{
+     border-right:none;
+    }
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="milk"><h1>우유</h1></div>
+
+
+    <div id="grid">
+        <ol>
+          <li><a href="개요.html">개요</a></li>
+          <li><a href="특징.html">특징</a></li>
+          <li><a href="영양.html">영양</a></li>
+          <li><a href="생산.html">생산</a></li>
+          <li><a href="유당불내증.html">유당불내증</a></li>
+        </ol>
+        <div id="text">
+          <p>
+            현재 젖소들은 육종을 한 탓에 하루라도 안 짜주면 유방염에 걸릴 수가 있다. 출산과 최적 혼합 사료 등 온갖 방법을 다 동원하면 1마리 기준 하루 58리터물이 1리터에 1kg인데까지도 뽑아낼 수 있다! 현실적인 문제 때문에 30리터 전후로 뽑아내지만. 소도 인간과 같이 임신과 출산을 해야 젖이 나오기 때문에 젖소들은 계속해서 강제 임신과 출산을 당한다. 출산한 송아지는 보통 우유 생산, 번식용의 소수를 제외하면 바로 도태(죽임)시키거나 송아지 고기로 판매한다.
+
+            유럽 기준, 적어도 기원전 3000년경함무라비 시대보다 천 년도 더 전?부터 우유 생산을 염두에 두고 육종되어 왔다. 지금이야 홀스타인 종과 같은 '모든 에너지를 젖 만드는 데 사용하는 수준'(...)의 소가 있지만 옛날에는 '우유만' 생산하도록 하는 소는 거의 없었고, 그러다보니 동서양 모두에서 안 좋은 소리를 많이 들었다.        </div>
+      </div>
+
+  </body>
+</html>

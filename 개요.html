@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>레이아웃 초안 연습</title>
+    <style>
+    #grid {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+
+    }
+    #text p{
+      margin: 0;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+      #milk {
+        border:1px solid black;
+        background:black;
+        padding:0;
+      }
+
+      #milk h1{
+        font-size:40px;
+        text-align:center;
+        color: white;
+      }
+       ol{
+        font-size:25px;
+        border-right:1px solid black;
+        width:80px;
+        margin:0;
+        padding:40px;
+
+      }
+      body{
+        margin:0;
+      }
+
+    @media(max-width:600px) {
+      #grid {
+        display: block;
+    }
+    ol{
+     border-right:none;
+    }
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id="milk"><h1><h1><a href= "index.html">우유</a></h1></div>
+
+
+    <div id="grid">
+        <ol>
+          <li><a href="개요.html">개요</a></li>
+          <li><a href="특징.html">특징</a></li>
+          <li><a href="영양.html">영양</a></li>
+          <li><a href="생산.html">생산</a></li>
+          <li><a href="유당불내증.html">유당불내증</a></li>
+        </ol>
+        <div id="text">
+          <p>
+            우유는 암소의 젖을 말한다. 한국어에서 '우유'는 소의 젖을 뜻하지만 영어에서 'milk'는 소뿐만이 아니라 포유류의 젖 일체를 의미한다. 그러나 일반적으로 milk라고 하면 젖소의 젖샘에서 분비되는 흰색의 불투명한 액체를 가리키기 때문에 굳이 다른 동물의 젖과 구별할 때에는 cow's milk 라고 부르기도 한다.
+          </p>
+        </div>
+      </div>
+
+  </body>
+</html>

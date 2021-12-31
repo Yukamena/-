@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>레이아웃 초안 연습</title>
+    <style>
+    #grid {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+
+    }
+    #text p{
+      margin: 0;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+      #milk {
+        border:1px solid black;
+        background:black;
+        padding:0;
+      }
+
+      #milk h1{
+        font-size:40px;
+        text-align:center;
+        color: white;
+      }
+       ol{
+        font-size:25px;
+        border-right:1px solid black;
+        width:80px;
+        margin:0;
+        padding:40px;
+
+      }
+      body{
+        margin:0;
+      }
+
+    @media(max-width:600px) {
+      #grid {
+        display: block;
+    }
+    ol{
+     border-right:none;
+    }
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="milk"><h1>우유</h1></div>
+
+
+    <div id="grid">
+        <ol>
+          <li><a href="개요.html">개요</a></li>
+          <li><a href="특징.html">특징</a></li>
+          <li><a href="영양.html">영양</a></li>
+          <li><a href="생산.html">생산</a></li>
+          <li><a href="유당불내증.html">유당불내증</a></li>
+        </ol>
+        <div id="text">
+          <p>
+우유를 먹고 배탈, 설사를 했다는 사람들이 있다. 유당 불내증(Lactose Intolerance)이라고 한다. 한국 성인의 약 90%는 유당분해 효소인 락테이스가 없다는 말이 퍼져있다. 유전자가 아예 없는 게 아니라 젖을 뗀 유년기 이후 '작동 중지'한 상태다. 물론 한국인의 90%가 우유를 아예 못 먹는 체질은 아니다. 그렇다면 전국 어느 상점에나 우유가 있는 거대한 수요와 공급이 유지될 수가 없고 한국 온라인상에서는 이 유당불내증이 상당히 과장되어서 돌아다니고 있다. 우유를 먹는 사람의 경우 후천적으로 효소가 다시 생기는 편이다.[26] 물론 꾸준히 노력해도 안 되는 사람도 일부 있지만 그런 경우가 대다수(8~90%)라고 할 수는 없다. 이런 사람들의 경우를 위해 유당 분해를 시킨[27] 제품군들이 있다. 심지어 외국에서는 유당 소화를 돕기 위해 약국에서 락토오스 분해 효과를 하는 효소를 캡슐 등으로 만들어 팔기도 한다. 식전 혹은 식후에 까 먹는 방식. 그런데 그 유전자 스위치(?)를 켜는 게 아주 불가능하지만도 않은 것이, 평생 우유와 거리가 멀게 살아왔던 6.25 세대 노인들이 골다공증에 좋다고 매일 우유 먹는 습관을 들이면서 점점 몸이 우유를 받는 것도 곧잘 볼 수 있다. 군대[28]에서도 거의 매일 우유(농협우유/부산우유 같은 지역우유)를 주는데 매일 먹다보니 설사도 안 나고 괜찮아졌다는 사람들이 꽤 보인다. 보통 우유 못 마시는 사람들은 진짜로 안 되는 사람도 있지만, 대부분은 처음에 몇 번 설사를 경험해 보고는 자신이 우유 체질이 아니라고 지레짐작하고 우유 마시기를 그만두기 때문에 평생 못 마시게 된다. 서양인들은 유당불내증이 비교적 적지만 있기는 있는데 이들 유당불내증 환자는 아이스크림이나 요거트같이 우유가 조금이라도 들어간 음식을 먹으면 소화가 안 돼 바로 설사가 난다.          </p>
+        </div>
+      </div>
+
+  </body>
+</html>

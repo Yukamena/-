@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>레이아웃 초안 연습</title>
+    <style>
+    #grid {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+
+    }
+    #text p{
+      margin: 0;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+      #milk {
+        border:1px solid black;
+        background:black;
+        padding:0;
+      }
+
+      #milk h1{
+        font-size:40px;
+        text-align:center;
+        color: white;
+      }
+       ol{
+        font-size:25px;
+        border-right:1px solid black;
+        width:80px;
+        margin:0;
+        padding:40px;
+
+      }
+      body{
+        margin:0;
+      }
+
+    @media(max-width:600px) {
+      #grid {
+        display: block;
+    }
+    ol{
+     border-right:none;
+    }
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="milk"><h1>우유</h1></div>
+
+
+    <div id="grid">
+        <ol>
+          <li><a href="개요.html">개요</a></li>
+          <li><a href="특징.html">특징</a></li>
+          <li><a href="영양.html">영양</a></li>
+          <li><a href="생산.html">생산</a></li>
+          <li><a href="유당불내증.html">유당불내증</a></li>
+        </ol>
+        <div id="text">
+          <p>
+            본래 우유는 송아지의 성장을 위한 것이지만 초창기의 인간은 맑은 물을 구하기 어려운 지역에서 살아왔던 탓에 가축으로 기르는 동물의 젖을 먹으려 시도했고, 나중에는 돌연변이가 생기면서 거의 모든 인간이 다른 동물의 젖을 소화할 수 있는 방향으로 진화했다. 또한 젖소 역시 자기가 낳은 송아지에게 먹일 양보다 훨씬 많은 젖을 생산하도록 품종 개량되었다.
+
+            다양한 영양소가 골고루 들어있는 만큼 그대로 마시기도 하고 특히 전통적으로 동아시아권보다 목축 문화가 발달했던 유럽 및 중동의 식생활을 지탱하는 하나의 축으로 작용해 왔다. 치즈, 버터, 생크림, 요구르트 등의 유제품도 다양한 방식으로 이용된다.
+
+            해외에는 우유(소의 젖) 외에도 양, 염소, 말, 낙타 젖 등도 식용으로 판매된다. 우리나라에서는 보통 산양유라고 부르는 염소젖이 소량 출시되어 있으나, 양젖이나 낙타 젖은 구하기 어렵다.
+
+            영어 milk란 단어는 원시 인구어 *h₂melǵ-에서 파생된 것으로 주로 게르만어파와 슬라브어파 지역에서 비슷한 꼴로 통용된다. 반면 남유럽권에서는 원시 인구어 *ǵlákt에서 파생된 단어들이 통용된다. 예를 들어 고대 그리스어 'galaktos'와 라틴어 'lac'. 라틴어 'lac'은 또 로망스어군 언어들에서 latte(이탈리아어), lait(프랑스어), leche(스페인어)와 같은 형태로 분화되었다.          </p>
+        </div>
+      </div>
+
+  </body>
+</html>

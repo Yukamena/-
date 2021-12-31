@@ -1,0 +1,42 @@
+#grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+
+}
+#text p{
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+}
+
+  #milk {
+    border:1px solid black;
+    background:black;
+    padding:0;
+  }
+
+  #milk h1{
+    font-size:40px;
+    text-align:center;
+    color: white;
+  }
+   ol{
+    font-size:25px;
+    border-right:1px solid black;
+    width:80px;
+    margin:0;
+    padding:40px;
+
+  }
+  body{
+    margin:0;
+  }
+
+@media(max-width:600px) {
+  #grid {
+    display: block;
+}
+ol{
+ border-right:none;
+}
+}
